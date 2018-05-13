@@ -18,7 +18,7 @@ public class LoadListener implements ActionListener {
 		Serializer serializer = new Serializer();
 		JFileChooser fileChooser = new JFileChooser();
 		fileChooser.setAcceptAllFileFilterUsed(false);
-		
+		 
 		JButton button = (JButton)e.getSource();
 		if(button.getName().equals("btnLoadLog")) {
 			serializer.setSerializeStrategy(new SerializeLog());
