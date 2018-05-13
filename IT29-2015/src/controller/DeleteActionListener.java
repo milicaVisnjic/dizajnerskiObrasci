@@ -20,7 +20,7 @@ public class DeleteActionListener implements ActionListener {
 		this.gui = gui;
 		repository = ShapeRepository.getInstance();
 	}
-  
+   
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
